@@ -24,11 +24,13 @@ Ce backend permet de :
 ### 1. Cloner le projet
 
 git clone https://github.com/Yousseffsaade/MDP.git
+
 cd MDP/backend
 
 ### 2. Créer l'environnement virtuel
 
 python -m venv venv
+
 venv\Scripts\activate
 
 ### 3. Installer les dépendances
@@ -44,10 +46,15 @@ pip install azure-storage-blob pymongo requests
 Ouvrir les fichiers suivants et remplacer les variables :
 
 fetch_data.py
+
 AZURE_CONNECTION_STRING
+
 utils/weather_api.py
+
 API_KEY
+
 insert_to_db.py
+
 MONGO_URI
 
 ### 5. Exécuter les scripts
@@ -69,6 +76,7 @@ python insert_to_db.py
 ### ✅ Résultat attendu
 
 Le fichier data/final_data.json sera rempli avec les données fusionnées.
+
 Les données seront insérées dans la base MongoDB Atlas.
 
 
