@@ -4,7 +4,7 @@ from pymongo import MongoClient
 # -------------------
 # CONFIGURATION
 # -------------------
-MONGO_URI = "mongodb+srv://yousseffsaade:IUeU8fHqfwawdNGU@smart-flood-cluster.slgz5lj.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true&appName=smart-flood-cluster"
+MONGO_URI = "mongodb+srv://yousseffsaade:IUeU8fHqfwawdNGU@smart-flood-cluster.slgz5lj.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true"
 DB_NAME = "smart_flood_system"
 COLLECTION_NAME = "sensor_data"
 DATA_FILE = "data/final_data.json"
@@ -25,14 +25,14 @@ def insert_data():
 
         if data:
             collection.insert_many(data)
-            print(f"✅ {len(data)} entrées insérées dans MongoDB.")
+            print(f"{len(data)} entrées insérées dans MongoDB.")
         else:
-            print("⚠️ Aucune donnée à insérer.")
+            print("Aucune donnée à insérer.")
 
         client.close()
 
     except Exception as e:
-        print(f"❌ Erreur insertion MongoDB : {e}")
+        print(f"Erreur insertion MongoDB : {e}")
 
 # -------------------
 # MAIN
