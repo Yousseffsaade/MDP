@@ -1,83 +1,58 @@
-# Smart Flood Detection System - Backend
+✅ Résumé de l’avancement du projet
 
-## 📌 Description
-Ce backend permet de :
-- Récupérer les données des capteurs Arduino depuis **Azure Blob Storage**
-- Récupérer les données météo en temps réel depuis **OpenWeather API**
-- Fusionner les deux
-- Sauvegarder les données fusionnées dans **MongoDB Atlas**
+1. Configuration du stockage Cloud Azure
 
----
+Création d’un Storage Account Azure (smartfloodstorage).
+Création d’un Container Blob nommé sensor-data pour stocker les données venant de l'Arduino.
+Téléversement d’un fichier de test JSON contenant des données Arduino simulées.
+2. Création d’une API Weather externe
 
-## 🚀 Prérequis
+Ajout de l'utilisation de l'API OpenWeather dans le projet.
+Intégration dans le fichier fetch_data.py pour récupérer :
+Température
+Humidité
+Prévision de pluie
+Vitesse du vent
+3. Récupération et fusion des données
 
-- Python 3.10+
-- Git
-- Compte Azure (avec Storage Account configuré)
-- Compte OpenWeather (clé API)
-- Compte MongoDB Atlas (Cluster Free configuré)
+Développement du script Python fetch_data.py qui fait :
+Récupération des fichiers stockés sur Azure Blob Storage.
+Appel à l'API météo.
+Fusion des données météo et des données Arduino.
+Sauvegarde de ces données fusionnées dans un fichier local data/final_data.json.
+4. Création et configuration de la base de données
 
----
+Création d’un Cluster MongoDB Atlas (gratuit, sandbox).
+Création de la base de données : smart_flood_system.
+Création de la collection : sensor_data.
+Connexion sécurisée avec un utilisateur MongoDB et whitelist de l’adresse IP.
+5. Insertion des données dans MongoDB
 
-## ⚙️ Installation et exécution
+Développement du script Python insert_to_db.py qui :
+Se connecte à MongoDB.
+Charge les données fusionnées depuis data/final_data.json.
+Insère les données dans la collection sensor_data.
+Résultat : ✅ Données insérées avec succès (vérifié depuis MongoDB Atlas).
+6. Mise en place d’une API Backend avec Flask
 
-### 1. Cloner le projet
+Création du fichier app.py.
+Développement d’une API REST simple :
+Endpoint : /api/data
+Fonction : Lire les données depuis MongoDB et les afficher en format JSON.
+Test de l’API en local : ✅ Affichage des données sur http://127.0.0.1:5000/api/data
+🚀 Avancement global
 
-git clone https://github.com/Yousseffsaade/MDP.git
+Partie	Statut
+Stockage Cloud (Azure Blob)	✅ Fait
+API météo (OpenWeather)	✅ Intégrée
+Récupération & Fusion données	✅ Fait
+Base de données (MongoDB)	✅ Configurée & connectée
+Insertion des données	✅ Fonctionnel
+API Backend (Flask)	✅ Fonctionnelle
+🎯 Prochaines étapes possibles
 
-cd MDP/backend
+Si tu veux avancer :
 
-### 2. Créer l'environnement virtuel
-
-python -m venv venv
-
-venv\Scripts\activate
-
-### 3. Installer les dépendances
-
-pip install -r requirements.txt
-
-ou
-
-pip install azure-storage-blob pymongo requests
-
-### 4. Configurer les paramètres
-
-Ouvrir les fichiers suivants et remplacer les variables :
-
-fetch_data.py
-
-AZURE_CONNECTION_STRING
-
-utils/weather_api.py
-
-API_KEY
-
-insert_to_db.py
-
-MONGO_URI
-
-### 5. Exécuter les scripts
-
-### A. Vérifier la connexion Azure :
-
-python test_azure_connection.py
-
-### B. Récupérer les données Arduino + météo :
-
-python fetch_data.py
-
-### C. Insérer les données dans MongoDB :
-
-python insert_to_db.py
-
----
-
-### ✅ Résultat attendu
-
-Le fichier data/final_data.json sera rempli avec les données fusionnées.
-
-Les données seront insérées dans la base MongoDB Atlas.
-
-
-
+Ajouter un modèle Machine Learning qui utilise ces données.
+Créer une interface Mobile ou Web qui récupère les données via ton API Flask.
+Implémenter un système d’alerte (email, notification) en cas de risque de flood détecté.
