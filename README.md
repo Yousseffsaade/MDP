@@ -52,19 +52,21 @@ MONGO_URI
 
 ### 5. Exécuter les scripts
 
-A. Vérifier la connexion Azure :
+### A. Vérifier la connexion Azure :
 
 python test_azure_connection.py
 
-B. Récupérer les données Arduino + météo :
+### B. Récupérer les données Arduino + météo :
 
 python fetch_data.py
 
-C. Insérer les données dans MongoDB :
+### C. Insérer les données dans MongoDB :
 
 python insert_to_db.py
 
-✅ Résultat attendu
+---
+
+### ✅ Résultat attendu
 
 Le fichier data/final_data.json sera rempli avec les données fusionnées.
 Les données seront insérées dans la base MongoDB Atlas.
