@@ -1,58 +1,89 @@
-✅ Résumé de l’avancement du projet
 
-1. Configuration du stockage Cloud Azure
+# Smart Flood Detection & Alert System - Backend
 
-Création d’un Storage Account Azure (smartfloodstorage).
-Création d’un Container Blob nommé sensor-data pour stocker les données venant de l'Arduino.
-Téléversement d’un fichier de test JSON contenant des données Arduino simulées.
-2. Création d’une API Weather externe
+## 🚀 Project Overview
 
-Ajout de l'utilisation de l'API OpenWeather dans le projet.
-Intégration dans le fichier fetch_data.py pour récupérer :
-Température
-Humidité
-Prévision de pluie
-Vitesse du vent
-3. Récupération et fusion des données
+This project is a backend system for a Flood Detection & Alert System. It integrates real-time sensor data and weather forecasts to store, process, and display flood risk information.
 
-Développement du script Python fetch_data.py qui fait :
-Récupération des fichiers stockés sur Azure Blob Storage.
-Appel à l'API météo.
-Fusion des données météo et des données Arduino.
-Sauvegarde de ces données fusionnées dans un fichier local data/final_data.json.
-4. Création et configuration de la base de données
+---
 
-Création d’un Cluster MongoDB Atlas (gratuit, sandbox).
-Création de la base de données : smart_flood_system.
-Création de la collection : sensor_data.
-Connexion sécurisée avec un utilisateur MongoDB et whitelist de l’adresse IP.
-5. Insertion des données dans MongoDB
+## ✅ Progress Summary
 
-Développement du script Python insert_to_db.py qui :
-Se connecte à MongoDB.
-Charge les données fusionnées depuis data/final_data.json.
-Insère les données dans la collection sensor_data.
-Résultat : ✅ Données insérées avec succès (vérifié depuis MongoDB Atlas).
-6. Mise en place d’une API Backend avec Flask
+### 1. Cloud Storage Setup (Azure)
 
-Création du fichier app.py.
-Développement d’une API REST simple :
-Endpoint : /api/data
-Fonction : Lire les données depuis MongoDB et les afficher en format JSON.
-Test de l’API en local : ✅ Affichage des données sur http://127.0.0.1:5000/api/data
-🚀 Avancement global
+- Created an **Azure Storage Account**: `smartfloodstorage`
+- Created a **Blob Container**: `sensor-data`
+- Uploaded sensor data files to the container
 
-Partie	Statut
-Stockage Cloud (Azure Blob)	✅ Fait
-API météo (OpenWeather)	✅ Intégrée
-Récupération & Fusion données	✅ Fait
-Base de données (MongoDB)	✅ Configurée & connectée
-Insertion des données	✅ Fonctionnel
-API Backend (Flask)	✅ Fonctionnelle
-🎯 Prochaines étapes possibles
+### 2. Weather API Integration
 
-Si tu veux avancer :
+- Integrated the **OpenWeather API** in the backend
+-  Automated retrieval of:
+  - Temperature
+  - Humidity
+  - Rain Forecast
+  - Wind Speed
 
-Ajouter un modèle Machine Learning qui utilise ces données.
-Créer une interface Mobile ou Web qui récupère les données via ton API Flask.
-Implémenter un système d’alerte (email, notification) en cas de risque de flood détecté.
+### 3. Data Retrieval & Merging
+
+- Developed a Python script **`fetch_data.py`** to:
+  - Fetch Arduino data files from Azure Blob Storage
+  - Retrieve weather forecast data via API
+  - Merge both datasets
+  - Save the merged data to `data/final_data.json`
+
+### 4. Database Setup (MongoDB Atlas)
+
+- Created a **MongoDB Atlas Cluster**
+- Created a **Database**: `smart_flood_system`
+- Created a **Collection**: `sensor_data`
+- Configured secure connection and access
+
+### 5. Data Insertion to MongoDB
+
+- Developed Python script **`insert_to_db.py`** to:
+  - Connect to MongoDB Atlas
+  - Load data from `data/final_data.json`
+  - Insert data into `sensor_data` collection
+
+### 6. API Backend Development (Flask)
+
+- Developed Flask API in **`app.py`**
+- Implemented route:
+  - `/api/data`: Fetches and returns all sensor & weather data from MongoDB
+- Tested locally on: `http://127.0.0.1:5000/api/data`
+
+---
+
+## 📄 Project Structure
+
+```
+backend/
+├── data/
+│   └── final_data.json         # Merged sensor + weather data
+├── fetch_data.py               # Data retrieval & merging
+├── insert_to_db.py             # Insert data into MongoDB
+├── app.py                      # Flask API server
+└── venv/                       # Python virtual environment
+```
+
+---
+
+## 🚧 Next Possible Steps
+
+- Add a **Machine Learning model** to predict flood risk
+- Connect the API to a **Mobile or Web Application**
+- Add **Alert System** (Email / SMS)
+- Automate data fetching & insertion periodically
+
+---
+
+## 🔗 Useful Links
+
+- [Azure Portal](https://portal.azure.com/)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [OpenWeather API](https://openweathermap.org/api)
+
+---
+
+**This backend is now fully operational for sensor data retrieval, weather integration, and storage in MongoDB.**
