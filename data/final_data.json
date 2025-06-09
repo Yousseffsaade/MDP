@@ -1,0 +1,632 @@
+[
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": null,
+        "water_level": null,
+        "rainfall": null,
+        "soil_moisture": null,
+        "humidity": 50,
+        "temperature": null,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": null,
+        "water_level": null,
+        "rainfall": null,
+        "soil_moisture": null,
+        "humidity": 50,
+        "temperature": null,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": null,
+        "water_level": null,
+        "rainfall": null,
+        "soil_moisture": null,
+        "humidity": 50,
+        "temperature": null,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 0,
+        "rainfall": 100,
+        "soil_moisture": 0,
+        "humidity": 51,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 0,
+        "rainfall": 100,
+        "soil_moisture": 0,
+        "humidity": 50,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 49,
+        "rainfall": 100,
+        "soil_moisture": 0,
+        "humidity": 50,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 58,
+        "rainfall": 100,
+        "soil_moisture": 0,
+        "humidity": 51,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 51,
+        "rainfall": 100,
+        "soil_moisture": 9,
+        "humidity": 51,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 48,
+        "rainfall": 100,
+        "soil_moisture": 13,
+        "humidity": 51,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 45,
+        "rainfall": 100,
+        "soil_moisture": 15,
+        "humidity": 53,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 44,
+        "rainfall": 100,
+        "soil_moisture": 15,
+        "humidity": 52,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 44,
+        "rainfall": 100,
+        "soil_moisture": 16,
+        "humidity": 52,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 0,
+        "rainfall": 0,
+        "soil_moisture": 0,
+        "humidity": 49,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 0,
+        "rainfall": 0,
+        "soil_moisture": 0,
+        "humidity": 51,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 0,
+        "rainfall": 0,
+        "soil_moisture": 0,
+        "humidity": 49,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 19,
+        "rainfall": 64,
+        "soil_moisture": 0,
+        "humidity": 49,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 20,
+        "rainfall": 65,
+        "soil_moisture": 0,
+        "humidity": 50,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 21,
+        "rainfall": 66,
+        "soil_moisture": 0,
+        "humidity": 49,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 22,
+        "rainfall": 67,
+        "soil_moisture": 0,
+        "humidity": 51,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 23,
+        "rainfall": 68,
+        "soil_moisture": 0,
+        "humidity": 50,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 23,
+        "rainfall": 69,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 24,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 24,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 24,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 24,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 21,
+        "rainfall": 75,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 21,
+        "rainfall": 74,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 21,
+        "rainfall": 75,
+        "soil_moisture": 0,
+        "humidity": 48,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 22,
+        "rainfall": 75,
+        "soil_moisture": 0,
+        "humidity": 49,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 22,
+        "rainfall": 75,
+        "soil_moisture": 0,
+        "humidity": 47,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 18,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 17,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 17,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 16,
+        "rainfall": 70,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 16,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 16,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 16,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 16,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 100,
+        "temperature": 10,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 15,
+        "rainfall": 71,
+        "soil_moisture": 0,
+        "humidity": 46,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 15,
+        "rainfall": 72,
+        "soil_moisture": 0,
+        "humidity": 45,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 15,
+        "rainfall": 72,
+        "soil_moisture": 0,
+        "humidity": 44,
+        "temperature": 6,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    },
+    {
+        "timestamp": "2025-05-22 00:23:42",
+        "device_id": "sensor_001",
+        "water_level": 14,
+        "rainfall": 72,
+        "soil_moisture": 0,
+        "humidity": 44,
+        "temperature": 5,
+        "weather_forecast": {
+            "forecast_temperature": 21.73,
+            "forecast_humidity": 73,
+            "predicted_rain": 0,
+            "wind_speed": 4.12
+        }
+    }
+]
